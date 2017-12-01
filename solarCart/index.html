@@ -1,0 +1,219 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>The Solar Cart</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../../dist/js/bootstrap.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">The solarCart</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="index.html">Home</a></li>
+            <li><a href="register.html">Create Account</a></li>
+            <li><a href="homepage.html"> Home Page </a></li>
+            </ul>
+
+          <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input name ="username"type="text" class="form-control"placeholder="Enter Username">
+            </div>
+            <div class ="form-group">
+            <input name="password"type="password" class="form-control"placeholder="Enter Password">
+            </div>
+            <button name="submit" type="submit"class="btn btn-default">Login</button>
+          </form>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div class="container">
+        <div class ="row">
+          <div class="col-md-4">
+              <div class="cart-block">
+              <form action="cart/update" method="post">
+                  <table cellpadding="6" cellspacing="1" style="width:100%" border="0">
+                    <tr>
+                        <th>QTY</th>
+                        <th>Item Description</th>
+                        <th style="text-align:right">Item Price</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td class="right"><strong>Total</strong></td>
+                        <td class="right" style="text-align:right">$</td>    
+                    </tr>
+                  </table>
+              <br>
+              <p><button class="btn btn-default" type="submit">Update Cart</button> <a class="btn btn-default" href="cart">Go To Cart</a></p>
+            </form>            
+          </div> 
+              <div class="panel panel-default panel-list">
+        <div class="panel-heading panel-heading-dark">
+           <h3 class="panel-title">
+            Categories
+          </h3>
+        </div>
+        <!-- List group -->
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#">Solar Panel Tools</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Components</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Layers</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Frames</a></li>
+          <li class="list-group-item"><a href="#">Solar Support</a></li>
+          <li class="list-group-item"><a href="#">Other Solar Materials</a></li>
+
+        </ul>
+      </div>
+
+      <div class="panel panel-default panel-list">
+        <div class="panel-heading">
+           <h3 class="panel-title">
+            Most Popular
+          </h3>
+        </div>
+        <!-- List group -->
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#">Solar Panel Tools</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Components</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Layers</a></li>
+          <li class="list-group-item"><a href="#">Solar Panel Frames</a></li>
+          <li class="list-group-item"><a href="#">Solar Support</a></li>
+          <li class="list-group-item"><a href="#">Other Solar Materials</a></li>
+        </ul>
+      </div>  
+
+
+
+      </div>
+      <div class="col-md-8">
+         <div class="panel panel-default">
+        <div class="panel-heading panel-heading-green">
+          <h3 class="panel-title">Available Products</h3>
+        </div>
+        <div class="panel-body">
+          <div class="row">
+        <div class="col-md-4 solar">
+          <div class="solar-price">$99.99</div>
+          <a href="details.html">
+            <img src="assets/images/caulkSiliconMaterial.jpg" alt="" width="180" height="180"  />
+          </a>
+          <div class="solar-title">
+            Caulk Silicon Material
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4 solar">
+          <div class="solar-price">$59.99</div>
+          <a href="detailsCW.html">
+            <img src="assets/images/copperWire.jpg" alt="" width="180" height="180"  />
+          </a>
+          <div class="solar-title">
+            Copper Wire
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4 solar">
+          <div class="solar-price">$79.99</div>
+          <a href="detailsD.html">
+            <img src="assets/images/diode.jpg" alt="" width="180" height="180"  />
+          </a>
+          <div class="solar-title">
+            Diode
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4 solar">
+          <div class="solar-price">$89.99</div>
+          <a href="detailsWP.html">
+            <img src="assets/images/woodPlate.jpg" alt="" width="180" height="180"  />
+          </a>
+          <div class="solar-title">
+            Wood Plate
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4 solar">
+          <div class="solar-price">$77.99</div>
+          <a href="detailsJP.html">
+            <img src="assets/images/jonesPlug.jpg" alt="" width="180" height="180"  />
+          </a>
+          <div class="solar-title">
+            Jones Plug
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        <div class="col-md-4 solar">
+          <div class="solar-price">$66.99</div>
+          <a href="detailsL.html">
+            <img src="assets/images/lumber.jpg" alt="" width="180" height="180" />
+          </a>
+          <div class="solar-title">
+            Lumber
+          </div>
+          <div class="solar-add">
+            <button class="btn btn-primary" type="submit">Add To Cart</button>
+          </div>
+        </div>
+        </div><!-- /.row -->
+        </div>
+        </div>
+
+
+
+
+
+          </div> 
+        </div>
+    </div><!-- /.container -->
+
+      <div class="row footer">
+    <div class="container">
+      <p>SpartanSolr &copy; 2015, All Rights Reserved</p>
+    </div>
+  </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+  </body>
+</html>

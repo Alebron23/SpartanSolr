@@ -1,0 +1,62 @@
+
+.nav a{
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.navbar-brand {
+  color: #5a5a5a;
+  font-weight: bold;
+}
+
+.nav .pull-left
+{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav li {
+  display: inline;
+}
+
+.jumbotron {
+  background-image:url('images/jumbotron.png');
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.jumbotron .container {
+  position: relative;
+  top:100px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  font-size: 48px;  
+  font-family: 'Shift', sans-serif;
+  font-weight: bold;
+}
+
+.jumbotron p {
+  font-size: 20px;
+  color: #fff;
+}
+
+.page-content {
+    background-color: #efefef;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.page-content h2 {
+    color: #393c3d;
+    font-size: 24px;
+}
+
+.page-content p {
+    font-size: 15px;
+    margin-bottom: 13px;
+}
